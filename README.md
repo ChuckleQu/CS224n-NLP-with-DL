@@ -7,7 +7,7 @@ For example glasses:
 2. distributional meaning*: "glasses" defined by context
 3. localist representation: a representation of a place stored, for instance, one-hot vectors
 ### Word2vec
-The first lecture mainly discusses the Word2vec method. It will firstly define the likelihood function with the parameter theta, which is the vector representation of the words, and the hyperparameter m.
+The first lecture mainly discusses the Word2vec method. It will firstly define the likelihood function with the parameter theta and the hyperparameter m, where theta is the vector representation of the words.
 
 After that, it constructs the cost function by taking the negative log-likelihood. For the conditional probability occurring in the cost function, it will be calculated through the softmax function.
 
