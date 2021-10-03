@@ -24,7 +24,7 @@ The "negative words" means the context words that are not in the window of the c
 
 Actually, I think the expression "the less frequent words will be sampled more often" is not very precise. In fact, the more frequent words will still be sampled with greater probability than the rare ones. However, what this 3/4 power does is trying to reduce the difference of the chosen probability between the frequent words and the rare words, since you can have a view from the graph of y = x ^ (3/4), where it is closer to a uniform distribution (a horizontal line) than y = x.
 
-Intuitively, I think the reason why the creators want to sample rare words more often is that if the words like "the", "a", "an" are sampled too many times, it is some kind of "meaningless" to do the optimization, so we need the rare words as well. Maybe that's why they found out the power of 3/4 is appropriate in their paper.
+Intuitively, I think the reason why the creators want to sample rare words more often is that if the very frequent words like "the", "a", "an" are sampled too many times, it is some kind of meaningless to do the optimization, so we need the rare words as well. Maybe that's why they found out the power of 3/4 is appropriate in their paper.
 
 ### Count Based vs. Direct Prediction
 1. Count Based: GloVe
