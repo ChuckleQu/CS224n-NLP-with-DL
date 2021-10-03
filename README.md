@@ -18,7 +18,7 @@ After getting the cost function, we can use numerical methods to train the model
 1. Skip-grams (SG): Predict context (outside) words given center words
 2. Continuous Bag of Words (CBOW): Predict center word from context words
 ### Negative Sampling
-The negative sampling can be added to optimize the skip-gram model. The idea of the negative sampling is to reduce the complexity when doing the optimization (or we can say, SGD). The general idea of how negative sampling works is that instead of taking the whole corpus to train the model (or to optimize the parameters), we can sample out only a few of the so-called "negative words" to train the model.
+The negative sampling can be added to optimize the skip-gram model. The idea of the negative sampling is to reduce the complexity when doing the optimization (or say, SGD). The general idea of how negative sampling works is that instead of taking the whole corpus to train the model (or to optimize the parameters), we can sample out only a few of the so-called "negative words" to train the model.
 
 The "negative words" mean the context words that are not in the window of the center word. About how to do the sampling, we use the unigram distribution with a power of 3/4, which results that the less frequent words will be sampled more often.
 
