@@ -30,6 +30,8 @@ Intuitively, I think the reason why the creators want to sample rare words more 
 1. Count Based: GloVe
 2. Direct Prediction: word2vec
 
-## Lecture 03 - Neuranl Nets
-### Classification
-It's really excited to see classification again, since my FYP is talking about some classical classification models with my really really kind supervisor Gloria. Well, go back to our topic. When studying this part, I'm quite confused with "softmax" and "sigmoid", since the professor in the lecturer mentioned they are actually the same, but then said the are different in the number of variables (if I remembered correctly), and sometimes they use softmax, and somtimes use sigmoid (the sigma sign).
+## Lecture 03 - Neural Nets
+### Classification Review and Notation
+It's really exciting to see classification again, since my FYP is talking about some classical classification models with my really really kind supervisor Gloria. Well, go back to our topic. When studying this part, I'm quite confused with "softmax" and "sigmoid", since the professor in the lecturer mentioned they are actually the same, but then said they are different in the number of variables (if I remembered correctly), and sometimes the slides use softmax and somtimes use sigmoid (the sigma sign).
+
+In fact, they are different when being the activation function in neural nets. Firstly, if we use sigmoid function, the addition of output probabilities do not necessarily be 1, may greater than 1, which means it allows overlap between each class. However, for softmax, the class will be mutually exclusive, and the addition of the probabilities will be exact 1.
