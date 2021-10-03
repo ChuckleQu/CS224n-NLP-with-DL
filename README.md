@@ -39,7 +39,7 @@ In fact, they are different when being the activation function in neural nets. F
 Secondly, actually, I'm not sure whether I understand correctly. Well, taking binary classification for example, when using the sigmoid function, we will have one output neuron, but softmax will have two since sigmoid is kind of calculating the probability for one class, but softmax is actually calculating the probability for each class.
 
 ### Training with "cross entropy loss"
-It's really exciting to see entropy as well since I've learned some so-called entropy in a project before. It's not hard to understand the "cross entropy loss". However, in the lecturer, there's no derivation, so it may look a little bit wired since it seems to come from nowhere, though in fact, it's quite reasonable. Do some search here.
+It's really exciting to see entropy as well since I've learned some so-called entropy in a project before. It's not hard to understand the "cross entropy loss". However, in the lecturer, there's no derivation, so it may look a little bit wired since it seems to come from nowhere, though in fact, it's quite reasonable. For people like me who have never heard of the "cross entropy loss", do some search here.
 
 ### Neural Computation
 So excited to get into the neural nets, though I still don't quite understand it. Hope to learn more in Lecture 04.
