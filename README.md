@@ -20,7 +20,7 @@ After getting the cost function, we can use numerical methods to train the model
 ### Negative Sampling
 The negative sampling can be added to optimize the skip-gram model. The idea of the negative sampling is to reduce the complexity when doing the optimization (or say, SGD). The general idea of how negative sampling works is that instead of taking the whole corpus to train the model (or to optimize the parameters), we can sample out only a few of the so-called "negative words" to train.
 
-The "negative words" mean the context words that are not in the window of the center word. About how to do the sampling, we use the unigram distribution with a power of 3/4, which results that the less frequent words will be sampled more often.
+The "negative words" means the context words that are not in the window of the center word. About how to do the sampling, we use the unigram distribution with a power of 3/4, which results that the less frequent words will be sampled more often.
 
 Actually, I think the expression "the less frequent words will be sampled more often" is not very precise. In fact, the more frequent words will still be sampled with greater probability than the rare ones. However, what this 3/4 power does is trying to reduce the difference of the chosen probability between the frequent words and the rare words, since you can have a view from the graph of y = x ^ (3/4), where it is closer to a uniform distribution (a horizontal line) than y = x.
 
