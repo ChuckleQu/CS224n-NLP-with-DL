@@ -42,4 +42,4 @@ Secondly, actually, I'm not sure whether I understand correctly. Well, taking bi
 It's really exciting to see entropy as well since I've learned some so-called entropy in a project before. It's not hard to understand the "cross entropy loss". However, in the lecturer, there's no derivation, so it may look a little bit wired since it seems to come from nowhere, though in fact, it's quite reasonable. For people like me who have never heard of the "cross entropy loss", please do some search here.
 
 ### Neural Computation
-So excited to get into the neural nets, though I still don't quite understand it. Hope to learn more in Lecture 04.
+So excited to get into the neural nets, though I still don't quite understand. Hope to learn more in Lecture 04.
