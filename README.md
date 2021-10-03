@@ -29,3 +29,7 @@ Intuitively, I think the reason why the creators want to sample rare words more 
 ### Count Based vs. Direct Prediction
 1. Count Based: GloVe
 2. Direct Prediction: word2vec
+
+## Lecture 03 - Neuranl Nets
+### Classification
+It's really excited to see classification again, since my FYP is talking about some classical classification models with my really really kind supervisor Gloria. Well, go back to our topic. When studying this part, I'm quite confused with "softmax" and "sigmoid", since the professor in the lecturer mentioned they are actually the same, but then said the are different in the number of variables (if I remembered correctly), and sometimes they use softmax, and somtimes use sigmoid (the sigma sign).
