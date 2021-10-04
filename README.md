@@ -1,6 +1,6 @@
 # CS224n-NLP-with-DL
 Assignment for CS224n, winter, 2019.
-## Lecture 01 - wordvecs1
+## Lecture 01 - Introduction and Word Vectors
 ### How to represent the meaning of a word
 For example glasses:
 1. denotational semantics: refers to a specific pair of glasses
@@ -13,7 +13,7 @@ After that, it constructs the cost function by taking the negative log-likelihoo
 
 After getting the cost function, we can use numerical methods to train the model, that is, to optimize the parameter theta. The lecturer introduces the stochastic gradient descent method, which is a kind of less-cost method than the batch gradient descent method.
 
-## Lecture 02 - wordvecs2
+## Lecture 02 - Word Vectors and Word Senses
 ### word2vect: Predict the surrounding words using word vectors
 1. Skip-grams (SG): Predict context (outside) words given center words
 2. Continuous Bag of Words (CBOW): Predict center word from context words
@@ -30,7 +30,7 @@ Intuitively, I think the reason why the creators want to sample rare words more 
 1. Count Based: GloVe
 2. Direct Prediction: word2vec
 
-## Lecture 03 - Neural Nets
+## Lecture 03 - Neural Networks
 ### Classification Review and Notation
 It's really exciting to see classification again since my FYP is talking about some classical classification models with my really really kind supervisor Gloria. Well, go back to our topic. When studying this part, I'm quite confused with "softmax" and "sigmoid", since the professor in the lecturer mentioned they are actually the same, but then said they are different in the number of neurons (if I remembered correctly), and sometimes the slides use softmax and sometimes use sigmoid (with sigma sign).
 
