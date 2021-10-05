@@ -43,3 +43,6 @@ It's really exciting to see entropy as well since I've learned some so-called en
 
 ### Neural Computation
 So excited to get into the neural nets, though I still don't quite understand. Hope to learn more in Lecture 04.
+
+## Lecture 04 - Backpropagation
+Today's lecturer is not hard, since it's about partial derivatives and things like that. However, I think the example taken in the class isn't very straight-forward and coherent. I found a really good example with the real number participated in the computation. If you can read Chinese characters, may check this: https://blog.csdn.net/weixin_38347387/article/details/82936585. Really really good example.
