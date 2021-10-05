@@ -41,8 +41,5 @@ Secondly, actually, I'm not sure whether I understand correctly. Well, taking bi
 ### Training with "cross entropy loss"
 It's really exciting to see entropy as well since I've learned some so-called entropy in a project before. It's not hard to understand the "cross entropy loss". However, in the lecturer, there's no derivation, so it may look a little bit wired since it seems to come from nowhere, though in fact, it's quite reasonable. For people like me who have never heard of the "cross entropy loss", please do some search here.
 
-### Neural Computation
-So excited to get into the neural nets, though I still don't quite understand. Hope to learn more in Lecture 04.
-
 ## Lecture 04 - Backpropagation
 Today's lecturer is not hard, since it's about partial derivatives and things like that. However, I think the example taken in the class isn't very straight-forward and coherent. I found a really good example with the real number participated in the computation. If you can read Chinese characters, may check this: https://blog.csdn.net/weixin_38347387/article/details/82936585. Really really good example.
